@@ -1,0 +1,50 @@
+version: '3.9'
+
+networks:
+  journey-hub-network:
+
+volumes:
+  journey-hub-postgres-volume: {}
+  journey-hub-pgAdmin-volume: {}
+
+services:
+  journey-hub-postgres:
+    container_name: journey-hub-postgres
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: JourneyHub
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+    ports:
+      - "5432:5432"
+    volumes: 
+      - journey-hub-postgres-volume:/var/lib/postgresql/data
+    networks:
+      - journey-hub-network
+  journey-hub-pgAdmin:
+    container_name: journey-hub-pgAdmin
+    depends_on:
+      - journey-hub-postgres
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8081:80"
+    volumes:
+      - journey-hub-pgAdmin-volume:/var/lib/pgadmin
+    networks:
+      - journey-hub-network
+  journey-hub-keycloak:
+    container_name: journey-hub-keycloak
+    image: jboss/keycloak
+    restart: always
+    environment:
+      - KEYCLOAK_USER: admin
+      - KEYCLOAK_PASSWORD: admin
+    ports:
+      - "8080:8080"
+    networks:
+      - journey-hub-network

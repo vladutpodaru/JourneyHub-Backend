@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{BA111CA6-F56B-4551-B106-2C11E4E8D5F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0D1E9365-3E19-4447-962B-98ACC1E4B22D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B4121EE2-8DAD-40E6-82DC-11E35D332C79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JourneyHub.Api", "JourneyHub.Api\JourneyHub.Api.csproj", "{E1672BB4-DF04-4BB8-8D7C-626CD26D9E80}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1672BB4-DF04-4BB8-8D7C-626CD26D9E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1672BB4-DF04-4BB8-8D7C-626CD26D9E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1672BB4-DF04-4BB8-8D7C-626CD26D9E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1672BB4-DF04-4BB8-8D7C-626CD26D9E80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1672BB4-DF04-4BB8-8D7C-626CD26D9E80} = {BA111CA6-F56B-4551-B106-2C11E4E8D5F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F9804FF-6FB9-4C1C-B6AF-BD152560428D}

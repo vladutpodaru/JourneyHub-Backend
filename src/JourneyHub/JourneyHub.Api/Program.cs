@@ -1,37 +1,38 @@
-using JourneyHub.Infrastructure;
-using JourneyHub.Application;
-using JourneyHub.Presentation;
 using Serilog;
+using JourneyHub.Api.Extensions;
 
-const string AllowedOrigin = "allowedJourneyHubOrigin";
-const string GraphQLEndpoint = "/journey-hub-api";
-
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddCors(option => 
-    option.AddPolicy(AllowedOrigin, builder =>
-    builder.AllowAnyOrigin()
-           .AllowAnyMethod()
-           .AllowAnyHeader()));
-
-builder.Host.UseSerilog((context, configuration) =>
-    configuration.ReadFrom.Configuration(context.Configuration));
-
-// IOC registration
-builder.Services
-    .AddInfrastructure()
-    .AddApplication()
-    .AddPresentation();
-
-var app = builder.Build();
-
-if (app.Environment.IsDevelopment())
+try
 {
-    app.UseDeveloperExceptionPage();
-}
+    const string CORSAllowUI = "CORSAllowUI";
 
-app.UseCors(AllowedOrigin);
-app.MapGraphQL(GraphQLEndpoint);
-app.UseSerilogRequestLogging();
-app.UseHttpsRedirection();
-app.Run();
+    var builder = WebApplication.CreateBuilder(args);
+
+    Log.Logger = new LoggerConfiguration()
+        .ReadFrom.Configuration(builder.Configuration)
+        .Enrich.FromLogContext()
+        .Enrich.WithProperty("ApplicationName", typeof(Program).Assembly.GetName().Name)
+        .Enrich.WithProperty("Environment", builder.Environment)
+        .CreateLogger();
+
+    builder.Host.UseSerilog(Log.Logger);
+    builder.RegisterAllServices(CORSAllowUI)
+           .Build()
+           .RegisterAllMiddlewares(CORSAllowUI)
+           .Run();
+}
+catch (Exception e)
+{
+    if (Log.Logger == null || Log.Logger.GetType().Name == "SilentLogger")
+    {
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Debug()
+            .WriteTo.Console()
+            .CreateLogger();
+    }
+
+    Log.Fatal(e, "Host terminated unexpectedly");
+}
+finally
+{
+    Log.CloseAndFlush();
+}

@@ -4512,3 +4512,684 @@ HotChocolate.SchemaException: For more details look at the `Errors` property.
    at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
    at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
 2024-04-11 18:42:40.453 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 607.9120 ms
+2024-04-11 19:59:00.902 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 33
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:00:56.171 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 33
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:01:51.438 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 33
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:02:34.740 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:03:25.873 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:04:11.223 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:04:21.251 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:04:37.126 +03:00 [INF] HTTP GET  responded 200 in 670.7233 ms
+2024-04-11 20:04:37.178 +03:00 [WRN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2024-04-11 20:04:37.180 +03:00 [WRN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2024-04-11 20:04:37.769 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 18.2557 ms
+2024-04-11 20:04:37.852 +03:00 [INF] HTTP GET /service-worker.js responded 200 in 101.1502 ms
+2024-04-11 20:04:39.099 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 289.0567 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.120 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 310.7862 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.121 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:04:39.122 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:04:39.128 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 318.2346 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.129 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:04:39.140 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 330.0088 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.142 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:04:39.168 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 14.7937 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.170 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:04:39.177 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 23.1764 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.179 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:04:39.188 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 32.5525 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.190 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:04:39.196 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 40.0430 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:04:39.198 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:05:22.404 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:06:27.452 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:07:40.800 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:10:06.710 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:11:50.137 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHealthChecks' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecksCore(IApplicationBuilder app, PathString path, Nullable`1 port, Object[] args)
+   at Microsoft.AspNetCore.Builder.HealthCheckApplicationBuilderExtensions.UseHealthChecks(IApplicationBuilder app, PathString path, HealthCheckOptions options)
+   at JourneyHub.Api.Extensions.RegisterHealthChecks.UseHealthChecks(IApplicationBuilder applicationBuilder) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterHealthChecks.cs:line 12
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 28
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:16:19.883 +03:00 [ERR] HTTP GET /journey-hub-api/ responded 500 in 14.2066 ms
+System.InvalidOperationException: No service for type 'JourneyHub.Api.Middlewares.ExceptionHandling' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:16:19.934 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'JourneyHub.Api.Middlewares.ExceptionHandling' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:16:20.089 +03:00 [ERR] HTTP GET /favicon.ico responded 500 in 2.5365 ms
+System.InvalidOperationException: No service for type 'JourneyHub.Api.Middlewares.ExceptionHandling' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-11 20:16:20.090 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'JourneyHub.Api.Middlewares.ExceptionHandling' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.InterfaceMiddlewareBinder.<>c__DisplayClass2_0.<<CreateMiddleware>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-04-11 20:16:36.693 +03:00 [INF] HTTP GET  responded 200 in 499.6897 ms
+2024-04-11 20:16:36.754 +03:00 [WRN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2024-04-11 20:16:36.756 +03:00 [WRN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2024-04-11 20:16:37.318 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 11.1213 ms
+2024-04-11 20:16:37.439 +03:00 [INF] HTTP GET /service-worker.js responded 200 in 134.2724 ms
+2024-04-11 20:16:37.531 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 83.9311 ms
+2024-04-11 20:16:37.806 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 0.7730 ms
+2024-04-11 20:16:38.976 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.017 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.042 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.070 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.086 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 410.6217 ms
+2024-04-11 20:16:39.086 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 410.4949 ms
+2024-04-11 20:16:39.086 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 404.4301 ms
+2024-04-11 20:16:39.086 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 408.6575 ms
+2024-04-11 20:16:39.202 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.203 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 39.0892 ms
+2024-04-11 20:16:39.236 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.237 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 72.8049 ms
+2024-04-11 20:16:39.266 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.268 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 101.9088 ms
+2024-04-11 20:16:39.294 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:16:39.296 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 129.8033 ms
+2024-04-11 20:16:39.443 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 93.7860 ms
+2024-04-11 20:17:05.033 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 33
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:19:44.208 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 33
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:20:05.246 +03:00 [FTL] Host terminated unexpectedly
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddAuthorization' in the application startup code.
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.VerifyServicesRegistered(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Builder.AuthorizationAppBuilderExtensions.UseAuthorization(IApplicationBuilder app)
+   at JourneyHub.Api.Extensions.RegisterMiddlewares.RegisterAllMiddlewares(WebApplication app, String CORSAllowUI) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Extensions\RegisterMiddlewares.cs:line 33
+   at Program.<Main>$(String[] args) in C:\Users\vladut.podaru\Desktop\JourneyHub\JourneyHub-Backend\src\JourneyHub\JourneyHub.Api\Program.cs:line 18
+2024-04-11 20:20:30.560 +03:00 [INF] HTTP GET  responded 200 in 633.1221 ms
+2024-04-11 20:20:30.610 +03:00 [WRN] Unable to configure Browser Link script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2024-04-11 20:20:30.612 +03:00 [WRN] Unable to configure browser refresh script injection on the response. This may have been caused by the response's Content-Encoding: '["br"]'. Consider disabling response compression.
+2024-04-11 20:20:31.176 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 19.3351 ms
+2024-04-11 20:20:31.392 +03:00 [INF] HTTP GET /service-worker.js responded 200 in 237.7398 ms
+2024-04-11 20:20:31.496 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 91.0181 ms
+2024-04-11 20:20:31.731 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 0.5025 ms
+2024-04-11 20:20:32.827 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:32.862 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:32.884 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:32.910 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:32.923 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 398.4389 ms
+2024-04-11 20:20:32.923 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 398.7339 ms
+2024-04-11 20:20:32.923 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 399.0319 ms
+2024-04-11 20:20:32.923 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 399.0152 ms
+2024-04-11 20:20:32.974 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:32.975 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 34.2736 ms
+2024-04-11 20:20:32.998 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:33.000 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 55.9883 ms
+2024-04-11 20:20:33.021 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:33.022 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 76.5934 ms
+2024-04-11 20:20:33.047 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:20:33.048 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 101.3858 ms
+2024-04-11 20:20:33.391 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 91.9109 ms
+2024-04-11 20:22:47.499 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 55.2655 ms
+2024-04-11 20:22:47.779 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:47.818 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:47.842 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:47.865 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:47.878 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 435.5014 ms
+2024-04-11 20:22:47.878 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 435.8708 ms
+2024-04-11 20:22:47.878 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 435.8286 ms
+2024-04-11 20:22:47.878 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 435.8695 ms
+2024-04-11 20:22:47.929 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:47.930 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 43.7501 ms
+2024-04-11 20:22:47.961 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:47.962 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 75.2079 ms
+2024-04-11 20:22:47.985 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:47.986 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 99.8158 ms
+2024-04-11 20:22:48.013 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-11 20:22:48.017 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 130.2471 ms
+2024-04-11 20:22:49.046 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 532.4515 ms
+2024-04-11 20:22:49.715 +03:00 [INF] HTTP GET /health responded 200 in 244.9614 ms

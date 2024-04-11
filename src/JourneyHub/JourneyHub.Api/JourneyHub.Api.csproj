@@ -7,8 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="HotChocolate" Version="13.9.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.4" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JourneyHub.Application\JourneyHub.Application.csproj" />
+    <ProjectReference Include="..\JourneyHub.Infrastructure\JourneyHub.Infrastructure.csproj" />
+    <ProjectReference Include="..\JourneyHub.Presentation\JourneyHub.Presentation.csproj" />
   </ItemGroup>
 
 </Project>

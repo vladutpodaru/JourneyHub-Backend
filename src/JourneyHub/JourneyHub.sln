@@ -9,17 +9,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{502E4F91-A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{200CE657-DFC1-4896-90FA-9AB79DF0C6AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyHub.Api", "JourneyHub.Api\JourneyHub.Api.csproj", "{792835D2-6B74-4D43-AA0D-67150E87C884}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JourneyHub.Api", "JourneyHub.Api\JourneyHub.Api.csproj", "{792835D2-6B74-4D43-AA0D-67150E87C884}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyHub.Application", "JourneyHub.Application\JourneyHub.Application.csproj", "{032CE99B-B2B9-44B8-A229-07975095C316}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JourneyHub.Application", "JourneyHub.Application\JourneyHub.Application.csproj", "{032CE99B-B2B9-44B8-A229-07975095C316}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyHub.Domain", "JourneyHub.Domain\JourneyHub.Domain.csproj", "{C2FD77C1-7276-49E2-8D93-35F23A1E07CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JourneyHub.Domain", "JourneyHub.Domain\JourneyHub.Domain.csproj", "{C2FD77C1-7276-49E2-8D93-35F23A1E07CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyHub.Infrastructure", "JourneyHub.Infrastructure\JourneyHub.Infrastructure.csproj", "{E280397D-7847-4D6D-84C6-12AF2ADEC0E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JourneyHub.Infrastructure", "JourneyHub.Infrastructure\JourneyHub.Infrastructure.csproj", "{E280397D-7847-4D6D-84C6-12AF2ADEC0E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{13CF7C95-6B9E-4681-873F-C94963B00882}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JourneyHub.Presentation", "JourneyHub.Presentation\JourneyHub.Presentation.csproj", "{D10AB90D-3B43-4CCE-BEDA-BCB4B1C1225A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JourneyHub.Presentation", "JourneyHub.Presentation\JourneyHub.Presentation.csproj", "{D10AB90D-3B43-4CCE-BEDA-BCB4B1C1225A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{33FCF9B8-43D0-41CF-9347-97CB077128F1}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

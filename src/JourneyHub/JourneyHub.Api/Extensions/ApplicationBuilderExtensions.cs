@@ -1,29 +1,27 @@
-﻿using JourneyHub.Api.Middlewares;
+﻿using JourneyHub.Application.Constants;
 using Microsoft.AspNetCore.CookiePolicy;
 
 namespace JourneyHub.Api.Extensions
 {
-    public static class RegisterServices
+    public static class ApplicationBuilderExtensions
     {
-        public static WebApplicationBuilder RegisterAllServices(this WebApplicationBuilder builder, string CORSAllowUI)
+        public static WebApplicationBuilder AddServices(this WebApplicationBuilder builder)
         {
+            ArgumentNullException.ThrowIfNull(builder);
+
             var services = builder.Services;
             var configuration = builder.Configuration;
-            var environment = builder.Environment;
 
             #region CORS
             // Add CORS
             services.AddCors(options =>
             {
                 string[] allowCustomHeaders = ["Content-Disposition"];
-                options.AddPolicy(CORSAllowUI,
-                builder =>
-                {
-                    builder.AllowAnyHeader()
+                options.AddPolicy(Constans.CORSAllowUI,
+                builder => builder.AllowAnyHeader()
                         .AllowAnyOrigin()
                         .AllowAnyMethod()
-                        .WithExposedHeaders(allowCustomHeaders);
-                });
+                        .WithExposedHeaders(allowCustomHeaders));
             });
             #endregion
 
@@ -32,7 +30,7 @@ namespace JourneyHub.Api.Extensions
             services.AddHsts(x =>
             {
                 x.Preload = true;
-                x.IncludeSubDomains = true; 
+                x.IncludeSubDomains = true;
             });
 
             // Add secure cookie policies
@@ -43,12 +41,7 @@ namespace JourneyHub.Api.Extensions
             });
 
             // Add response compression
-            services.AddResponseCompression(options =>
-            {
-                options.EnableForHttps = true;
-            });
-
-            services.AddTransient<SecurityHeaders>();
+            services.AddResponseCompression(options => options.EnableForHttps = true);
             #endregion
 
             #region IOC Services
@@ -59,7 +52,6 @@ namespace JourneyHub.Api.Extensions
 
             services.AddHealthChecks();
             services.AddHttpContextAccessor();
-            services.AddTransient<ExceptionHandling>();
 
             return builder;
         }

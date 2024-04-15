@@ -1,6 +1,6 @@
 ﻿namespace JourneyHub.Api.Middlewares
 {
-    public class SecurityHeaders : IMiddleware
+    public class SecurityHeadersMiddleware : IMiddleware
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
@@ -10,7 +10,7 @@
             context.Response.Headers.Append("X-Frame-Options", "DENY");
             context.Response.Headers.Append("X-Content-Type-Options", "nosniff");
 
-            await next(context);
+            await next(context).ConfigureAwait(false);
         }
     }
 }

@@ -23,15 +23,13 @@ namespace JourneyHub.Api.Extensions
                 app.UseResponseCompression();
             }
 
-            app.UseHttpsRedirection();
-            app.UseSerilogRequestLogging();
-            app.UseHealthChecks();
-
-            app.UseRouting();
             app.UseCors(CORSAllowUI);
+            app.UseHealthChecks();
+            app.UseExceptionHandling();
+            app.UseSerilogRequestLogging();
+            app.UseHttpsRedirection();
             // app.UseAuthentication();
             // app.UseAuthorization();
-            app.UseExceptionHandling();
             app.MapGraphQL(GraphQLEndpoint);
 
             return app;

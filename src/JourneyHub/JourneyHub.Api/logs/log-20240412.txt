@@ -1,0 +1,343 @@
+2024-04-12 15:00:36.645 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 113.1862 ms
+2024-04-12 15:00:37.088 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.144 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.176 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.210 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.240 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 713.5647 ms
+2024-04-12 15:00:37.240 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 714.8872 ms
+2024-04-12 15:00:37.240 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 714.8982 ms
+2024-04-12 15:00:37.240 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 714.0303 ms
+2024-04-12 15:00:37.306 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.309 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 58.4387 ms
+2024-04-12 15:00:37.341 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.343 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 92.6267 ms
+2024-04-12 15:00:37.374 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.375 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 124.9637 ms
+2024-04-12 15:00:37.415 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:00:37.416 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 165.5758 ms
+2024-04-12 15:00:37.494 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 968.0803 ms
+2024-04-12 15:00:37.588 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 80.4903 ms
+2024-04-12 15:04:46.330 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 131.8324 ms
+2024-04-12 15:04:46.670 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.712 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.746 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.777 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.802 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 606.0844 ms
+2024-04-12 15:04:46.802 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 606.0624 ms
+2024-04-12 15:04:46.802 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 606.0304 ms
+2024-04-12 15:04:46.802 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 606.0394 ms
+2024-04-12 15:04:46.863 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.864 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 46.2581 ms
+2024-04-12 15:04:46.893 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.894 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 76.3530 ms
+2024-04-12 15:04:46.921 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.922 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 104.5813 ms
+2024-04-12 15:04:46.959 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:04:46.961 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 143.5153 ms
+2024-04-12 15:04:46.975 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 778.7609 ms
+2024-04-12 15:06:46.528 +03:00 [INF] HTTP GET /journey-hub-api/bcp-config.json responded 200 in 48.4145 ms
+2024-04-12 15:06:46.842 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 366.7802 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:46.861 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 385.7469 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:46.922 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 446.0069 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:46.953 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:46.953 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:46.953 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:46.964 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 488.9645 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:46.987 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:47.063 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 17.7571 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:47.084 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:47.092 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 47.0761 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:47.113 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:47.124 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 78.7152 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:47.152 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:47.163 +03:00 [ERR] HTTP POST /journey-hub-api responded 500 in 118.4719 ms
+HotChocolate.SchemaException: For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+   at HotChocolate.Configuration.TypeInitializer.Initialize()
+   at HotChocolate.SchemaBuilder.Setup.InitializeTypes(SchemaBuilder builder, IDescriptorContext context, IReadOnlyList`1 types)
+   at HotChocolate.SchemaBuilder.Setup.Create(SchemaBuilder builder, LazySchema lazySchema, IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.SchemaBuilder.HotChocolate.ISchemaBuilder.Create(IDescriptorContext context)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaAsync(ConfigurationContext context, RequestExecutorSetup setup, RequestExecutorOptions executorOptions, IServiceProvider schemaServices, TypeModuleChangeMonitor typeModuleChangeMonitor, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.CreateSchemaServicesAsync(ConfigurationContext context, RequestExecutorSetup setup, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorNoLockAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorResolver.GetRequestExecutorAsync(String schemaName, CancellationToken cancellationToken)
+   at HotChocolate.Execution.RequestExecutorProxy.GetRequestExecutorAsync(CancellationToken cancellationToken)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.HandleRequestAsync(HttpContext context)
+   at HotChocolate.AspNetCore.HttpPostMiddlewareBase.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Builder.EndpointRouteBuilderExtensions.<>c__DisplayClass20_0.<<UseCancellation>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2024-04-12 15:06:47.187 +03:00 [ERR] For more details look at the `Errors` property.
+
+1. The object type `Query` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+2. The object type `Mutation` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+3. The object type `Subscription` has to at least define one field in order to be valid. (HotChocolate.Types.ObjectType)
+
+2024-04-12 15:06:47.199 +03:00 [INF] HTTP GET /service-worker.js responded 304 in 723.7985 ms

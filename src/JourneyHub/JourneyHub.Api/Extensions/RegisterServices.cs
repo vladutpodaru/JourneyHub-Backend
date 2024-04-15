@@ -11,15 +11,28 @@ namespace JourneyHub.Api.Extensions
             var configuration = builder.Configuration;
             var environment = builder.Environment;
 
-            // DbContext PostGres
-            // var connectionString = configuration.GetConnectionString("OptHandler");
-            // services.AddDbContextPool<OptContext>(optionsBuilder => optionsBuilder.UseNpgsql(connectionString, options => options.EnableRetryOnFailure()).EnableSensitiveDataLogging(true));
+            #region CORS
+            // Add CORS
+            services.AddCors(options =>
+            {
+                string[] allowCustomHeaders = ["Content-Disposition"];
+                options.AddPolicy(CORSAllowUI,
+                builder =>
+                {
+                    builder.AllowAnyHeader()
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .WithExposedHeaders(allowCustomHeaders);
+                });
+            });
+            #endregion
 
+            #region SECURITY HEADERS
             // Add Strict-Transport-Security HTTP header  
             services.AddHsts(x =>
             {
                 x.Preload = true;
-                x.IncludeSubDomains = true;
+                x.IncludeSubDomains = true; 
             });
 
             // Add secure cookie policies
@@ -35,29 +48,18 @@ namespace JourneyHub.Api.Extensions
                 options.EnableForHttps = true;
             });
 
-            // Add CORS
-            services.AddCors(options =>
-            {
-                string[] allowCustomHeaders = ["Content-Disposition"];
-                options.AddPolicy(CORSAllowUI,
-                builder =>
-                {
-                    builder.AllowAnyHeader()
-                        .AllowAnyOrigin()
-                        .AllowAnyMethod()
-                        .WithExposedHeaders(allowCustomHeaders);
-                });
-            });
-            services.AddHealthChecks();
+            services.AddTransient<SecurityHeaders>();
+            #endregion
 
-            // Register services IOC
-            Infrastructure.DependencyInjection.AddInfrastructure(services);
+            #region IOC Services
+            Infrastructure.DependencyInjection.AddInfrastructure(services, configuration);
             Application.DependencyInjection.AddApplication(services);
             Presentation.DependencyInjection.AddPresentation(services);
+            #endregion
 
-            // Add middleware exception handling service
+            services.AddHealthChecks();
+            services.AddHttpContextAccessor();
             services.AddTransient<ExceptionHandling>();
-            services.AddTransient<SecurityHeaders>();
 
             return builder;
         }

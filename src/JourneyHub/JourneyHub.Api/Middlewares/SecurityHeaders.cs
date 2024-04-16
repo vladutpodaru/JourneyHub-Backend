@@ -1,6 +1,6 @@
 ﻿namespace JourneyHub.Api.Middlewares
 {
-    public class SecurityHeadersMiddleware : IMiddleware
+    public class SecurityHeaders : IMiddleware
     {
         public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {

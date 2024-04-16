@@ -69,3 +69,13 @@ services:
     networks:
       network_sso:
         ipv4_address: "10.0.0.4"  
+  logging:
+    container_name: logging-seq-container
+    image: datalust/seq:latest       
+    environment:      
+      - ACCEPT_EULA=Y    
+    ports:      
+      - "8082:80"
+    networks:
+      network_sso:
+        ipv4_address: "10.0.0.5"  

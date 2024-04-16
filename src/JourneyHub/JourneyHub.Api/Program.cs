@@ -1,5 +1,6 @@
-using Serilog;
+﻿using Serilog;
 using JourneyHub.Api.Extensions;
+using System.Globalization;
 
 try
 {
@@ -17,13 +18,31 @@ try
     #endregion
 
     #region Build & Run
-    builder.AddServices();
+    builder.AddWebApplicationBuilder();
 
     var app = builder.Build();
-    app.AddMiddlewares();
+    app.AddWebApplication();
+    #endregion
+}
+catch (Exception ex) when (Log.Logger == null || Log.Logger.GetType().Name == "SilentLogger")
+{
+    #region Log the exception
+    var outputTemplateType = "{Timestamp:yyyy-MM-dd HH:mm:ss} [{Level:u3}] {Message:lj}{NewLine}{Exception}";
+
+    Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Debug()
+            .WriteTo.Console(outputTemplate: outputTemplateType, formatProvider: CultureInfo.InvariantCulture)
+            .CreateLogger();
+
+    Log.Fatal(ex, "Host terminated unexpectedly");
     #endregion
 }
 finally
 {
     Log.CloseAndFlush();
+}
+
+public partial class Program
+{
+    protected Program() { }
 }

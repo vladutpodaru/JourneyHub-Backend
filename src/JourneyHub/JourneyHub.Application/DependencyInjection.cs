@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using JourneyHub.Application.Behaviors;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
@@ -10,7 +11,12 @@ namespace JourneyHub.Application
         {
             var assembly = typeof(DependencyInjection).Assembly;
 
-            services.AddMediatR(configuration => configuration.RegisterServicesFromAssembly(assembly)); //.AddMediatorHandlers(services);
+            services.AddMediatR(configuration => 
+            {
+                configuration.RegisterServicesFromAssembly(assembly); //.AddMediatorHandlers(services);
+                configuration.AddOpenBehavior(typeof(RequestLoggingPipelineBehavior<,>));
+            });
+
             services.AddValidatorsFromAssembly(assembly);
         }
     }

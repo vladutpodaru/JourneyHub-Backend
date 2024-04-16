@@ -1,11 +1,12 @@
-﻿using JourneyHub.Application.Constants;
+﻿using JourneyHub.Api.Middlewares;
+using JourneyHub.Application.Constants;
 using Microsoft.AspNetCore.CookiePolicy;
 
 namespace JourneyHub.Api.Extensions
 {
-    public static class ApplicationBuilderExtensions
+    public static class WebApplicationBuilderExtensions
     {
-        public static WebApplicationBuilder AddServices(this WebApplicationBuilder builder)
+        public static WebApplicationBuilder AddWebApplicationBuilder(this WebApplicationBuilder builder)
         {
             ArgumentNullException.ThrowIfNull(builder);
 
@@ -17,7 +18,7 @@ namespace JourneyHub.Api.Extensions
             services.AddCors(options =>
             {
                 string[] allowCustomHeaders = ["Content-Disposition"];
-                options.AddPolicy(Constans.CORSAllowUI,
+                options.AddPolicy(Constants.CORSAllowUI,
                 builder => builder.AllowAnyHeader()
                         .AllowAnyOrigin()
                         .AllowAnyMethod()
@@ -49,6 +50,9 @@ namespace JourneyHub.Api.Extensions
             Application.DependencyInjection.AddApplication(services);
             Presentation.DependencyInjection.AddPresentation(services);
             #endregion
+
+            // Add global exception handler
+            services.AddExceptionHandler<GlobalExceptionHandler>();
 
             services.AddHealthChecks();
             services.AddHttpContextAccessor();
